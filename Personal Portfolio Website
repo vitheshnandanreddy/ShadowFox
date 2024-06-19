@@ -1,0 +1,238 @@
+HTML CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="effect.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h1>Hi, I'm</h1>
+        <h1>Vithesh Nandan Reddy</h1>
+        <p>Front-end Developer</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Passionate Front-end Developer and video editor.
+            excited to learn new skills and to improve my knowledge and
+            experience.
+        </p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">PYTHON</div>
+            <div class="skill">CEH</div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <img src="#">
+                <h3>Accident Prevention & Detection</h3>
+                <p>This project showcases the model to detect accident and using sensors&technologies to prevent it.</p>
+            </div>
+            <div class="project">
+                <img src="#">
+                <h3>College Erp</h3>
+                <p>A basic Erp which contains Faculty & Student Details and thier stats.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Vithesh Nandan Reddy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+CSS CODE:
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url('luke-chesser-eICUFSeirc0-unsplash.jpg') no-repeat center center/cover;
+}
+
+header {
+    background-color: transparent;
+    color: #c3c61b;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+#hero {
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+.skill:hover {
+    background-color: #555;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+BACKGROUND-IMAGE URL:
+
+data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNBw0NBw0HBwcNBw0HDQcHBw8ICQcNFREWFhURFRUYKCggGCYxJx8VITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrLSstKysrKysrKzcrKysrLSsrKysrKysrNy0rKysrNysrKysrKzcrKysrKysrLSsrK//AABEIALwBDAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgAGB//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABkBAQEBAQEBAAAAAAAAAAAAAAIBBgUAA//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDz1mZtnzZmZ55oqCGCUhhjQxChhjRUGnGVBFQacaKEVBpRoqCKgnGUIqCUaKgiolONFQRUGlI0VBFQacaKgioJyNFQRUGlDDGhgnIYY0MGnDC0IlHJMzO4zLGCKRYyoIqCcjRUEVBpRooKgnI0VBFRCjRQVBpxoqCKEo0VBFQacaKgioJSNFRoYNONFQRUE5GioIqIcMMaGDShhjQwTkMVBFQacaFoRKRyDRjHcZdoqBUQ40VBFQaUaKgioJyNFQRUE5GioIoaUaKgioNONFQRUQo0VAqCcaKjQwaUMLGDTkaKgioJwwxoYNKQwxoYJyExoqDTjRUEUhSNFCKE442Kgio7jLxoqCKiU40VBFQSjKgioNORoqBUGlGVBFDTkaKgioJRoqNDBpxoqNDEpQwxoYJxoqBUE5DDGhg0pDDGhgnIYY0VBpxoqCKgnGioIqDSjRWNCJyONVBFR3ay8aKgioNKNFQKgnI0VBFRDjRTGDSjRUaEThhjQwShhjQwTkMMaGDShMaGCcjRUaGIcMMaGBSkMVBDEpwxUEVBONFQKgnI0io0MGlDC0InI42Kgio7tZeNFCKglGioIqCcaKjQjSjRTQwacMMaGCUMMaGIchhjQwaUJjGDTkMMaGCcMMaGDThioIoaUjRUEVBpxoqCKgnI0VGhg0pDDGhgnIYcaFDjjYqCKjuMtGioIqJTkMMYwacJjQjShhjQwThhjQwShhjQwacMMaGCUhhjQxDkMMaKg05GioIqCcjRUEVBpRoqCKgnGioJFQacMMaGDSkMMaKgnGhaETkcdDGMd1lpDDGhgnDDGMGlCY0MQ4YY0MGlDDGhgnDDGhg0oTGhgnIYY0VBpxoqCKgnI0VBFRKUaKgioJwwxjBpyGGNDBpSGGNFQTjRUEVBpyMWhE5HHQxoY7rLQwxoYNOGGMYNKExoYJQwxoYhwwxoqDTjQxoYNKQmNFQTjRUEVBpyNFQRQ05GioIqDShhjQwTkMMaGDThhjRUEpGioIqIcaKgioNORoWihORxsMaF3ay0JjQwShhjKgnGhjQwShioIqDTjQxoYJSGGNFQTkaKgiolORoqCKgnI0VBFQaUMMaGCchhjQwacMVBFDTkaKgioJSNFQRUGnI0VBFQacjRQihNxsMYx3WVhVBDBOQwxlRCjRUEVBONFQRQnGhjQwSkMVBFQacaKgioJyNFRoYNOGGNDBKQwxoYNOQxUEVBpyMqCKiHGioFDSkaKgioNORoqCKg040U0InHGwxjHdrKwxUEME4YYxglDFQRUSnGioIYNKGKgioJxoqCKg040VBFQacMMaGDShhjGDThioIqDTjRUEVBpxoqCKglGioIqJTkaKgioNOGGNDBOGFoRKP/2Q==
